@@ -5,10 +5,13 @@ import Login from '@/app/components/loginpage'
 import Progress from '@/app/components/progressbar'
 import Register from '@/app/components/registrationpage'
 import Error from '@/app/components/errorpage'
+import Product from '@/app/components/productpage'
+import Athelte from './components/atheletepage'
 
 export default function Home() {
   return (
-    
-    <Login></Login>
+    <div><Nav />
+    <Athelte></Athelte>
+    </div>
   )
 }
