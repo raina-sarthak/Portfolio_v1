@@ -1,6 +1,6 @@
 export default function Login(){
     return(
-        <div className="mx-auto flex w-full max-w-sm flex-col gap-6">
+        <div className="mx-auto my-40 flex w-full max-w-sm flex-col gap-6">
             <div className="flex flex-col items-center">
                 <h1 className="text-3xl font-semibold">Sign In</h1>
                 <p className="text-sm">Sign in to access your account</p>
