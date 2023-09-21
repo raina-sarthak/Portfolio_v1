@@ -1,8 +1,6 @@
-
-
 export default function Nav(){
     return(
-        <header className="bg-white dark:bg-gray-900">
+        <header className="bg-transparent dark:bg-transparent ">
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                 <div className="flex-1 md:flex md:items-center md:gap-12">
@@ -48,15 +46,6 @@ export default function Nav(){
                             className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                             href="/"
                         >
-                            History
-                        </a>
-                        </li>
-
-                        <li>
-                        <a
-                            className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
-                        >
                             Healthy Living
                         </a>
                         </li>
@@ -66,7 +55,7 @@ export default function Nav(){
                             className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                             href="/"
                         >
-                            Projects
+                            Athelets
                         </a>
                         </li>
 
