@@ -10,8 +10,10 @@ import Athelte from './components/atheletepage'
 
 export default function Home() {
   return (
-    <div><Nav />
-    <Athelte></Athelte>
-    </div>
+    
+    <Login></Login>
+
+
+
   )
 }
