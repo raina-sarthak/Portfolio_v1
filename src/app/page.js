@@ -1,17 +1,18 @@
 import Image from 'next/image'
 import Nav from "../app/components/navbar"
 import Hero from "@/app/components/heropage"
-import Login from '@/app/components/loginpage'
+import AnimatedCurvedText from './components/animated text'
 import Progress from '@/app/components/progressbar'
-import Register from '@/app/components/registrationpage'
-import Error from '@/app/components/errorpage'
-import Product from '@/app/components/productpage'
+import Contact from '@/app/components/contact'
+import Project from '@/app/components/project'
+import Card from '@/app/components/cards'
 import Athelte from './components/atheletepage'
 
 export default function Home() {
   return (
     
-    <Login></Login>
+    <><Nav></Nav><Hero></Hero><Project></Project><Card></Card><Contact></Contact></>
+      
 
 
 

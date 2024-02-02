@@ -1,121 +1,96 @@
 export default function Nav(){
     return(
-        <header className="bg-transparent dark:bg-transparent ">
-            <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <header className="fixed inset-x-0 top-0 z-50 bg-transparent ">
+            <div className="my-4 mx-16">
                 <div className="flex h-16 items-center justify-between">
-                <div className="flex-1 md:flex md:items-center md:gap-12">
-                    <a className="block text-teal-600 dark:text-teal-300" href="/">
-                    <span className="sr-only">Home</span>
-                    <svg
-                        className="h-8"
-                        viewBox="0 0 28 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                        d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
-                        fill="currentColor"
-                        />
-                    </svg>
-                    </a>
+                <div className="subpixel-antialiased" >
+                    <a href="https://github.com/raina-sarthak" target="_blank">sarthak raina</a>
                 </div>
 
-                <div className="md:flex md:items-center md:gap-12">
+                <div className="">
                     <nav aria-label="Global" className="hidden md:block">
                     <ul className="flex items-center gap-6 text-sm">
+                        
                         <li>
-                        <a
-                            className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
-                        >
-                            About
-                        </a>
+                            <a href="https://www.linkedin.com/in/sarthak-raina-099856236/" target="_blank">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width= "30"
+                                    height= "30"
+                                    viewBox="0  24 24"
+
+                                >
+                                    <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" 
+                                    style={{
+                                        fill: "#cbd5e1",
+                                    }}
+                                    />
+                                </svg>
+                            </a>
                         </li>
 
                         <li>
-                        <a
-                            className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
-                        >
-                            Workouts
-                        </a>
+                            <a href="/aditiresume.pdf" download="Adit Malik">
+                                <svg
+                                    fill="#cbd5e1"
+                                    width="30"
+                                    height="30"
+                                    viewBox="0 0 846.66 846.66"
+                                    style={{
+                                    shapeRendering: "geometricPrecision",
+                                    textRendering: "geometricPrecision",
+                                    imageRendering: "optimizeQuality",
+                                    fillRule: "evenodd",
+                                    clipRule: "evenodd",
+                                    }}
+                                    xmlSpace="preserve"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                                
+                                >
+                                    <defs>
+                                    <style type="text/css" />
+                                    </defs>
+                                    <g id="Layer_x0020_1">
+                                    <path
+                                        className="fil0"
+                                        d="M539.75 794.68c27.15,0 27.15,41.29 0,41.29l-497.47 0c-11.4,0 -20.64,-9.25 -20.64,-20.65l0 -621.69c0,-5.7 2.31,-10.87 6.04,-14.6l162.3 -162.29c4.03,-4.03 9.31,-6.05 14.59,-6.05l466.89 0c11.4,0 20.65,9.25 20.65,20.65l0 361.36c0,27.16 -41.29,27.16 -41.29,0l0 -340.72 -437.7 0 -150.19 150.2 0 592.5 476.82 0zm-351.21 -181.98c-27.16,0 -27.16,-41.29 0,-41.29l306.67 0c27.16,0 27.16,41.29 0,41.29l-306.67 0zm0 -274.68c-27.16,0 -27.16,-41.29 0,-41.29l306.67 0c27.16,0 27.16,41.29 0,41.29l-306.67 0zm0 91.56c-27.16,0 -27.16,-41.29 0,-41.29l306.67 0c27.16,0 27.16,41.29 0,41.29l-306.67 0zm0 91.56c-27.16,0 -27.16,-41.29 0,-41.29l306.67 0c27.16,0 27.16,41.29 0,41.29l-306.67 0zm0 -274.68c-27.16,0 -27.16,-41.29 0,-41.29l306.67 0c27.16,0 27.16,41.29 0,41.29l-306.67 0zm496.57 238.25c49.84,0 90.24,40.4 90.24,90.24 0,18.1 -5.33,34.95 -14.5,49.07 37.57,24.93 61.47,66.08 64.13,111.2 1.59,27.06 -39.55,29.47 -41.13,2.42 -2.11,-35.69 -22.61,-67.48 -54.13,-84.24 -13.16,7.5 -28.38,11.78 -44.61,11.78 -17.56,0 -33.95,-5.01 -47.81,-13.69 -33.44,16.12 -55.6,49.04 -57.79,86.15 -1.59,27.05 -42.72,24.64 -41.13,-2.42 2.79,-47.18 28.75,-89.88 69.08,-114.28 -7.99,-13.47 -12.58,-29.19 -12.58,-45.99 0,-49.83 40.4,-90.24 90.23,-90.24zm0 41.29c-27.03,0 -48.94,21.92 -48.94,48.95 0,27.03 21.91,48.94 48.94,48.94 27.03,0 48.95,-21.91 48.95,-48.94 0,-27.03 -21.91,-48.95 -48.95,-48.95z"
+                                    />
+                                    </g>
+                                </svg>
+                            </a>
                         </li>
-
                         <li>
-                        <a
-                            className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
-                        >
-                            Healthy Living
-                        </a>
-                        </li>
-
-                        <li>
-                        <a
-                            className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
-                        >
-                            Athelets
-                        </a>
-                        </li>
-
-                        <li>
-                        <a
-                            className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                            href="/"
-                        >
-                            Store
-                        </a>
+                            <a href="mailto:rainasarthak03@gmail.com">
+                                <svg
+                                    width="30"
+                                    height="30"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    id="mail"
+                                    className="icon glyph"
+                                >
+                                    <path
+                                    d="M22,8.32V18a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V8.69L4,9.78l7.52,4.1A1,1,0,0,0,12,14a1,1,0,0,0,.5-.14L20,9.49Z"
+                                    style={{
+                                        fill: "#cbd5e1",
+                                    }}
+                                    />
+                                    <path
+                                    d="M22,6h0L20,7.18l-8,4.67L4,7.5,2,6.4V6A2,2,0,0,1,4,4H20A2,2,0,0,1,22,6Z"
+                                    style={{
+                                        fill: "#cbd5e1",
+                                    }}
+                                    />
+                                </svg>
+                            </a>
                         </li>
                     </ul>
                     </nav>
-
-                    <div className="flex items-center gap-4">
-                    <div className="sm:flex sm:gap-4">
-                        <a
-                        className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow dark:hover:bg-teal-500"
-                        href="/"
-                        >
-                        Login
-                        </a>
-
-                        <div className="hidden sm:flex">
-                        <a
-                            className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-                            href="/"
-                        >
-                            Register
-                        </a>
-                        </div>
-                    </div>
-
-                    <div className="block md:hidden">
-                        <button
-                        className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-                        >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                        >
-                            <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M4 6h16M4 12h16M4 18h16"
-                            />
-                        </svg>
-                        </button>
-                    </div>
-                    <div className="">
-                        <input type="checkbox" class="switch switch-xl" data-content='☀'/>
-                    </div>
                     </div>
                 </div>
                 </div>
-            </div>
+    
         </header>
     )
 }
